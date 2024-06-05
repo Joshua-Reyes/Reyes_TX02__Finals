@@ -1,0 +1,134 @@
+*
+        {
+           margin: 0px;
+           padding: 0px;
+           box-sizing: border-box;
+           font-family:arial;
+        }
+       
+        #logo-div
+        {
+         width: 100%;
+         min-height: 50px;
+         background-color: #ebebeb;
+        padding-left: 2%;
+        line-height: 50px;
+        margin-bottom: 10px;
+        }
+       
+        #nav-div
+        {
+         width: 100%;
+         min-height: 30px;
+         background-color: #ebebeb;
+         text-align: center;
+         margin-bottom: 10px;
+        }
+
+        #header-banner-div
+        {
+          width: 100%;
+          min-height: 100px;
+          background-color: #ebebeb;
+          text-align: center;
+          line-height: 100px;
+          margin-bottom: 10px;
+
+        }
+
+        #main-div{
+          width: 100%;
+          
+         
+        }
+        
+        #sidebar-div
+        {
+         width: 20%;
+         min-height: 400px;
+         background-color: #ebebeb;
+         float: left;
+         text-align: center;
+         line-height: 400px;
+         
+         
+        }
+
+        #bodyarea-div
+        {
+          width: 75%;
+          min-height: 400px;
+          background-color: #ebebeb; 
+          float: right;
+          text-align: center;
+         line-height: 400px;
+        }
+
+        .clearfix::after
+        {
+          content: "";
+          display: block;
+          clear: both;
+        }
+
+        #footer-div
+        {
+          width:100%;
+         min-height: 50px;
+         background-color: #ebebeb;
+         text-align: center;
+         line-height: 50px;
+         float: right;
+         margin-top: 10px;
+        }
+
+        #wrapper-div
+        {
+          width: 80%;
+          background-color: grey;
+          margin: auto;
+        }
+
+        #logodiv {
+          width: 50%;
+          min-height: 50px;
+          background-color: #ebebeb;
+          padding-left: 2%;
+          padding-right: 2%;
+          line-height: 40px;
+          float: left;
+        }
+        #logodiv img {
+          max-height: 100px;
+          width: auto;
+        }
+
+        #footer-div img{
+          max-width: 15%;
+      max-height: 15%;
+        }
+
+        #footer-div p{
+          width: 30%;
+          padding-left: 2%;
+          padding-right: 2%;
+          padding-top: 2.5%;
+          text-align: center;
+          float: right;
+        }
+
+        #navdiv {
+          width: 50%;
+          background-color: #ebebeb;
+          padding-left: 2%;
+          padding-right: 2%;
+          line-height: 50px;
+          text-align: center;
+          float: right;
+      }
+      #navdiv a {
+          display: inline;
+          margin-right: 15px;
+          color: black;
+          text-decoration: none;
+      }
